@@ -67,8 +67,28 @@
     </div>
     <hr class="mx-auto border-white py-4">
     <div>
-        <div class="container mx-auto p-6">
+        <div class="container mx-auto py-6 px-12">
             <h2 class="text-3xl font-semibold text-primary-orange">Elenco</h2>
+        
+            <div class="mt-8">
+                <a href="#">
+                    <img 
+                        src="https://conteudo.imguol.com.br/c/entretenimento/0c/2023/03/23/john-wick-4-baba-yaga-e-o-mais-novo-capitulo-da-franquia-que-revitalizou-a-carreira-de-keanu-reeves-1679541049583_v2_1x1.png"
+                        alt="Keanu Reeves"
+                        class="w-48 rounded-full hover:opacity-75 transition ease-in-out duration-150"
+                    >
+                </a>
+
+                <div class="mt-4 ml-8">
+                    <h5 href="#" class="text-lg text-white mt-2 hover:text-primary-gray">
+                        Keanue Reeves
+                    </h5>
+
+                    <p class="text-primary-gray">
+                        Ator e Dublê
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
