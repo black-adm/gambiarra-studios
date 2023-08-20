@@ -15,6 +15,9 @@ export default {
         'primary-gray': '#6a6c72',
         'gray-white': '#f2f4f7',
         'primary-red': '#c00',
+      },
+      width: {
+        '96': '24rem'
       }
     },
   },
