@@ -12,7 +12,7 @@
     <nav>
         <div class="container mx-auto flex items-center justify-between px-16 py-6">
             <span class="mr-20">
-                <a href="#">
+                <a href="/">
                     <img src="{{ asset('logo.png') }}" alt="Logo">
                 </a>
             </span>

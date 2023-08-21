@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container mx-auto px-6 pt-12 sm:pt-20">
+    <div class="container mx-auto px-6 pt-12 pb-16 sm:pt-20">
         <div>
             <h2 class="uppercase tracking-wide text-primary-orange text-lg pl-4 md:pl-0 font-semibold">
                 Filmes Populares
@@ -32,8 +32,11 @@
                                 <span class="text-xs">{{ \Carbon\Carbon::parse($movie['release_date'])->format('d/m/Y') }}</span>
                             </div>
                         
-                            <div class="text-primary-gray text-sm">
-                                Ação, Suspense e Romance
+                            <div class="text-primary-gray text-xs mt-1">
+                                @foreach ($movie['genre_ids'] as $genreId)
+                                    {{ $genres[$genreId] }}
+                                @if (!$loop->last), @endif
+                            @endforeach
                             </div>
                         </div>
                     </div>  
