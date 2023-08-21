@@ -12,9 +12,9 @@
                     <div class="mt-8">
                         <a href="#">
                             <img 
-                                src="https://www.terra.cl/u/fotografias/m/2021/12/28/f768x1-19224_19351_5050.jpeg"
-                                alt="Matrix Ressurections"
-                                class="rounded-md hover:opacity-75 transition ease-in-out duration-150"
+                                src="{{ 'https://image.tmdb.org/t/p/w500'.$movie['poster_path'] }}"
+                                alt="poster"
+                                class="rounded-lg hover:opacity-75 transition ease-in-out duration-150"
                             >
                         </a>
 
